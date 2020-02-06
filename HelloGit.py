@@ -7,6 +7,10 @@ mylist=[1,2,3,4,3,2,1]
 
 print(mylist[0:6:2])
 
+x=0
+while(x<5):
+    x+=1
+    print("x ="+ str(x))
 phrase='Catch the dog'
 phrase[2] # t
 phrase[4] # h
